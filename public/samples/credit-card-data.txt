@@ -1,0 +1,59 @@
+Name: John Smith
+Credit Card: 4532015112830366
+Exp: 12/27
+CVV: 123
+Zip: 10001
+
+Name: Sarah Johnson
+Credit Card: 5425233430109903
+Exp: 03/28
+CVV: 456
+Zip: 90210
+
+Name: Michael Williams
+Credit Card: 378282246310005
+Exp: 08/26
+CVV: 7890
+Zip: 33139
+
+Name: Emily Brown
+Credit Card: 6011111111111117
+Exp: 01/29
+CVV: 234
+Zip: 60601
+
+Name: David Garcia
+Credit Card: 4916338506082832
+Exp: 05/27
+CVV: 567
+Zip: 75201
+
+Name: Jessica Martinez
+Credit Card: 5105105105105100
+Exp: 11/28
+CVV: 890
+Zip: 98101
+
+Name: Christopher Lee
+Credit Card: 4000056655665556
+Exp: 07/27
+CVV: 321
+Zip: 02101
+
+Name: Amanda Taylor
+Credit Card: 5200828282828210
+Exp: 09/28
+CVV: 654
+Zip: 85001
+
+Name: Daniel Anderson
+Credit Card: 371449635398431
+Exp: 04/26
+CVV: 9876
+Zip: 30301
+
+Name: Melissa Thomas
+Credit Card: 6011000990139424
+Exp: 10/29
+CVV: 147
+Zip: 48201

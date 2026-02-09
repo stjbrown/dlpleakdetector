@@ -1,0 +1,39 @@
+Name: John Smith
+SSN: 078-05-1120
+DOB: 01/15/1985
+
+Name: Sarah Johnson
+SSN: 219-09-9999
+DOB: 03/22/1990
+
+Name: Michael Williams
+SSN: 457-55-5462
+DOB: 07/08/1978
+
+Name: Emily Brown
+SSN: 001-01-0001
+DOB: 11/30/1992
+
+Name: David Garcia
+SSN: 627-38-5219
+DOB: 05/14/1988
+
+Name: Jessica Martinez
+SSN: 586-43-7891
+DOB: 09/25/1995
+
+Name: Christopher Lee
+SSN: 364-92-1847
+DOB: 02/18/1983
+
+Name: Amanda Taylor
+SSN: 753-19-4628
+DOB: 12/07/1991
+
+Name: Daniel Anderson
+SSN: 482-67-3951
+DOB: 06/21/1987
+
+Name: Melissa Thomas
+SSN: 915-28-7364
+DOB: 04/03/1994

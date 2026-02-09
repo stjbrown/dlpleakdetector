@@ -1,66 +1,62 @@
+import Link from "next/link";
 import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div className="container">
+      <section className="hero">
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+          src="/logo.png"
+          alt="Data Leak Detector Logo"
+          width={150}
+          height={150}
+          style={{ marginBottom: '1rem' }}
         />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+        <h1>Data Leak Detector</h1>
+        <p>
+          Test your Data Loss Prevention (DLP) software configuration.
+          Upload sensitive test data and verify your DLP blocks it correctly.
+        </p>
+      </section>
+
+      <div className="quick-links">
+        <Link href="/upload-test" className="quick-link">
+          <h3>🔒 Upload Test</h3>
+          <p>Test if DLP blocks sensitive data uploads</p>
+        </Link>
+        <Link href="/download-test" className="quick-link">
+          <h3>📥 Download Test</h3>
+          <p>Test if DLP blocks sensitive file downloads</p>
+        </Link>
+        <Link href="/sample-data" className="quick-link">
+          <h3>📋 Sample Data</h3>
+          <p>Copy test SSN, CCN, and PII data</p>
+        </Link>
+      </div>
+
+      <div className="card" style={{ marginTop: "3rem" }}>
+        <h2>How to Use This Site</h2>
+        <p style={{ marginBottom: "1rem" }}>
+          This site helps you verify that your DLP solution is working correctly:
+        </p>
+        <ol style={{ color: "var(--text-secondary)", paddingLeft: "1.5rem" }}>
+          <li style={{ marginBottom: "0.5rem" }}>
+            Go to the <strong>Sample Data</strong> section and copy some test sensitive data
+          </li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            Navigate to <strong>Upload Test</strong> or <strong>Download Test</strong>
+          </li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            Paste the sample data and click <strong>Submit</strong>, or download a test file
+          </li>
+          <li style={{ marginBottom: "0.5rem" }}>
+            <strong style={{ color: "var(--success)" }}>If DLP is working:</strong> Your request will be blocked before completing
+          </li>
+          <li>
+            <strong style={{ color: "var(--danger)" }}>If DLP failed:</strong> You&apos;ll see a warning that your data was transferred
+          </li>
+        </ol>
+      </div>
     </div>
   );
 }

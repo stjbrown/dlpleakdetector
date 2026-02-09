@@ -1,0 +1,49 @@
+Name: John Smith
+DOB: 01/15/1985
+Email: john.smith@example.com
+Phone: (555) 123-4567
+
+Name: Sarah Johnson
+DOB: 03/22/1990
+Email: s.johnson@testmail.org
+Phone: (555) 234-5678
+
+Name: Michael Williams
+DOB: 07/08/1978
+Email: m.williams@fakecorp.com
+Phone: (555) 345-6789
+
+Name: Emily Brown
+DOB: 11/30/1992
+Email: emily.brown@sampledata.net
+Phone: (555) 456-7890
+
+Name: David Garcia
+DOB: 05/14/1988
+Email: d.garcia@testuser.io
+Phone: (555) 567-8901
+
+Name: Jessica Martinez
+DOB: 09/25/1995
+Email: jess.martinez@example.org
+Phone: (555) 678-9012
+
+Name: Christopher Lee
+DOB: 02/18/1983
+Email: c.lee@demomail.com
+Phone: (555) 789-0123
+
+Name: Amanda Taylor
+DOB: 12/07/1991
+Email: amanda.t@fakedata.net
+Phone: (555) 890-1234
+
+Name: Daniel Anderson
+DOB: 06/21/1987
+Email: dan.anderson@testsite.org
+Phone: (555) 901-2345
+
+Name: Melissa Thomas
+DOB: 04/03/1994
+Email: melissa.thomas@sampleuser.com
+Phone: (555) 012-3456
